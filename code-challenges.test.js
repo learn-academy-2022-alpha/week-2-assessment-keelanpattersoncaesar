@@ -30,24 +30,24 @@
 
 // a) Create a test with expect statements for each of the variables provided.
 
-// const num1 = 15
-// const num2 = 0
-// const num3 = -7
-// // Expected output: "15 is divisible by three"
-// // Expected output: "0 is divisible by three"
-// // Expected output: "-7 is not divisible by three"
-// // a describe method that lists the name of the function OR naming of the particular test.
+const num1 = 15
+const num2 = 0
+const num3 = -7
+// Expected output: "15 is divisible by three"
+// Expected output: "0 is divisible by three"
+// Expected output: "-7 is not divisible by three"
+// a describe method that lists the name of the function OR naming of the particular test.
 
-// describe("modThree", () => {
+describe("modThree", () => {
 
-//     it("takes a number as an argument and decides if the number is evenly divisible by three or not", () => {
+    it("takes a number as an argument and decides if the number is evenly divisible by three or not", () => {
 
-//       expect(modThree(num1)).toEqual("15 is divisible by three")
-//       expect(modThree(num2)).toEqual("0 is divisible by three")
-//       expect(modThree(num3)).toEqual("-7 is not divisible by three")
+      expect(modThree(num1)).toEqual("15 is divisible by three")
+      expect(modThree(num2)).toEqual("0 is divisible by three")
+      expect(modThree(num3)).toEqual("-7 is not divisible by three")
 
-//     })
-//   })
+    })
+  })
 
 // good fail!!!!
 
@@ -76,19 +76,19 @@
 
 // a) Create a test with expect statements for each of the variables provided.
 
-// const randomNouns1 = ["streetlamp", "potato", "teeth", "conclusion", "nephew"]
-// // Expected output: ["Streetlamp", "Potato", "Teeth", "Conclusion", "Nephew"]
-// const randomNouns2 = ["temperature", "database", "chopsticks", "mango", "deduction"]
-// // Expected output: ["Temperature", "Database", "Chopsticks", "Mango", "Deduction"]
+const randomNouns1 = ["streetlamp", "potato", "teeth", "conclusion", "nephew"]
+// Expected output: ["Streetlamp", "Potato", "Teeth", "Conclusion", "Nephew"]
+const randomNouns2 = ["temperature", "database", "chopsticks", "mango", "deduction"]
+// Expected output: ["Temperature", "Database", "Chopsticks", "Mango", "Deduction"]
 
-// describe("wordsCap", () => {
+describe("wordsCap", () => {
 
-//     it("takes in an array of words and returns an array with all the words capitalized", () => {
+    it("takes in an array of words and returns an array with all the words capitalized", () => {
 
-//         expect(wordsCap(randomNouns1)).toEqual(["Streetlamp", "Potato", "Teeth", "Conclusion", "Nephew"])
-//         expect(wordsCap(randomNouns2)).toEqual(["Temperature", "Database", "Chopsticks", "Mango", "Deduction"])
-//     })
-// })
+        expect(wordsCap(randomNouns1)).toEqual(["Streetlamp", "Potato", "Teeth", "Conclusion", "Nephew"])
+        expect(wordsCap(randomNouns2)).toEqual(["Temperature", "Database", "Chopsticks", "Mango", "Deduction"])
+    })
+})
 
 // // good fail - ReferenceError: wordsCap is not defined
 
@@ -118,23 +118,23 @@
 
 // a) Create a test with expect statements for each of the variables provided. 
 
-// const vowelTester1 = "learn"
-// // Expected output: 1
-// const vowelTester2 = "academy"
-// // Expected output: 0
-// const vowelTester3 = "challenges"
-// // Expected output: 2
+const vowelTester1 = "learn"
+// Expected output: 1
+const vowelTester2 = "academy"
+// Expected output: 0
+const vowelTester3 = "challenges"
+// Expected output: 2
 
-// describe("firstIndex", () => {
+describe("firstIndex", () => {
 
-//     it("takes in a string and logs the index of the first vowel", () => {
+    it("takes in a string and logs the index of the first vowel", () => {
 
-//       expect(vowelTester1(firstIndex)).toEqual("1")
-//       expect(vowelTester2(firstIndex)).toEqual("0")
-//       expect(vowelTester3(firstIndex)).toEqual("2")
+      expect(vowelTester1(firstIndex)).toEqual("1")
+      expect(vowelTester2(firstIndex)).toEqual("0")
+      expect(vowelTester3(firstIndex)).toEqual("2")
 
-//     })
-//   })
+    })
+  })
 
 // // Passssssed!
 
